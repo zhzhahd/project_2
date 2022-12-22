@@ -7,7 +7,7 @@
     
    @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; height: auto; width: 100%; position: fixed; top: 0; z-index: 10;}
-    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 9vw; text-align: center; font-weight: bolder; position: relative; top:5px; padding:2% 0;} 
+    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 11vw; text-align: center; font-weight:900; position: relative; top:5px; padding:2% 0;} 
   
     
     nav{ height: auto; width: 100%; z-index: 3; display: flex; flex-wrap:wrap;
@@ -17,7 +17,7 @@
     .tap{ position: relative; bottom: 35px; right: 3%; width: 6vw;}
     .tap:hover{cursor: pointer;}
     
-    nav ul li:nth-of-type(1){font-size: 1.4em; text-shadow: 2px 2px 0px gray; font-family: "바탕"; font-weight: bold; padding-left: 20%;}
+    nav ul li:nth-of-type(1){font-size: 1.3em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 20%;}
     nav ul li:nth-of-type(2),nav ul li:nth-of-type(3),nav ul li:nth-of-type(4),nav ul li:nth-of-type(5){padding-left: 20%;}
     nav ul a{color: white; padding: 3%; display: flex; font-size: 1.5em; }
     nav ul a:hover{text-decoration: underline;}
@@ -34,14 +34,13 @@
     .a1 h2{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; color: #e9d595; padding-top: 5%;}
     .a1 h2:hover{color: #e0dccc;}
     .a1 p{font-size: 5vw;  line-height: 130%; padding: 3% 1% 5% 1% ; text-align: justify; }
-    .a1 p br{display: none;}
-    .a1 img{width: 100%; padding:7% 0;}
-    
+    .a1 p br,.a1 img{display: none;}
+        
     #box #btn{position: relative;  left :26%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 4.8vw;}
     #box #btn:hover{cursor: pointer; background: #e9dba4;}    
 
     .ab{width: 100%; margin: 0 auto; background-image: url(../img/2.jpg); background-size:cover ; background-position: center;}
-    #second{width: 85%; height: auto; margin: 0 auto;  }
+    #second{width: 85%; height: auto; margin: 0 auto; padding-top: 20%; }
     #second h1{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
     #second article{display: flex; flex-wrap: wrap;}
     #second article img{width: 95%; display: block;}
@@ -59,17 +58,17 @@
     #third article{width: 60%; height: 100px; margin: 0 auto; }
     
     #men{width: 23vw; position: relative; left: 15%; top: 40px; }
-    #derec{position: relative; top: 7.5vh;  width: 20vw; }   
+    #derec{position: relative; top: 10vh;  width: 20vw; }   
 
 
-    .a4{width: 100%; margin: 0 auto; padding-top: 13%; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
-    .a4 article{ width: 80%; }
-    #gift h1{font-size: 7.5vw;  padding: 5% 3%;font-family: 'Nanum Myeongjo', serif; }
+    .a4{width: 100%; margin: 0 auto; padding-top: 20%; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+    .a4 article{ width: 80%;  }
+    #gift h1{font-size: 7.5vw;  padding: 5% 2% 2% 2%;font-family: 'Nanum Myeongjo', serif; }
     #gift:nth-of-type(2) h1{text-align: right;}
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
-    #gift p{font-size: 6vw; padding: 0 5% 10% 5%;} 
-    #gift:nth-of-type(2) p{text-align: right;}
+    #gift:nth-of-type(1) p{font-size: 6vw; padding: 0 2% 30% 2%;}
+    #gift:nth-of-type(2) p{text-align: right; font-size: 6vw; padding: 0 2% 10% 2%;}
     #gift img:hover{opacity: 0.9;}
     #gift img{width: 100%;}
     #drec{display: none;}
@@ -88,8 +87,7 @@
 
    #last{width: 100%;  background: white; padding: 10% 0 5% 0;}
     #part{width: 80%;  margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; padding-top: 5%;}
-    #part h2{ width: 100%; text-align: center; color: rgb(77, 75, 75); font-size: 4vw; 
-        font-family: 'Nanum Myeongjo', serif;}
+    #part h2{ width: 100%; text-align: center; color: rgb(77, 75, 75); font-size: 4vw; font-family: 'Nanum Myeongjo', serif;}
     #part h2 a{color: rgb(66, 66, 66);} 
     #part h3{width: 100%; font-size: 3vw; color:#e6c761; font-weight: 100; text-align: center;} 
     #part a{width: 10%;}
@@ -100,7 +98,7 @@
     footer p br{display: none;}
     #footer{width: 95%; height: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
     .logo2{width: 100%; display: flex; justify-content: center;}
-    .logo2 img{width: 10%; padding: 2%;}
+    .logo2 img{width: 20%; padding: 5%;}
     .etc{width: 90%; }
 
     #sns{display: flex; width: 25%; height: 50px; justify-content: space-around;}
@@ -118,7 +116,7 @@
 
     @media (min-width:778px) and (max-width:1999px){
         header{background-image: url(../img/1.jpg); height: auto; width: 100%;}
-        #logo{font-family: "Baskerville Old Face"; font-size: 5vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
+        #logo{font-family: "Baskerville Old Face"; font-size: 6vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
       
         
         nav{display: flex;  justify-content: space-between;  width: 80%; 
@@ -126,7 +124,7 @@
         #menu{display: flex; flex-direction: row-reverse;}
         .tap{ position: relative; bottom: 30px; right: 3%; width: 3.5vw;}
         .tap:hover{cursor: pointer;}
-        nav ul li:nth-of-type(1){font-size: 1.6em; font-family: "바탕"; font-weight: bold;}
+        nav ul li:nth-of-type(1){font-size: 1.5em; font-family: 'Nanum Myeongjo', serif; font-weight: bold;}
         nav ul a{color: white; padding: 18px; display: flex; font-size: 1.2em; }
         nav ul a:hover{text-decoration: underline;}
     
