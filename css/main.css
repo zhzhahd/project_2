@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
-    *{margin: 0; padding: 0; text-decoration: none; color: white; box-sizing: border-box;} 
+    *{margin: 0; padding: 0; text-decoration: none;  box-sizing: border-box;} 
     ul,ol,li{list-style: none;}  
-    #wrap{width: 100%; background: black;} 
+    #wrap{width: 100%; background: black; color: white;} 
     
     
    @media (max-width:777px){
-    header{background-image: url(../img/1.jpg); background-size: cover; height: auto; width: 100%; position: fixed; top: 0; z-index: 10;}
-    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 11vw; text-align: center; font-weight:900; position: relative; top:5px; padding:2% 0;} 
-  
+    header{background-image: url(../img/1.jpg); background-size: cover; width: 100%; position: fixed; top: 0; z-index: 10;}
+    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 11vw; text-align: center; font-weight:900; position: relative; top:15px; padding:1% 5% 1% 0;} 
+    #logo a{ color: white;}
     
     nav{ height: auto; width: 100%; z-index: 3; display: flex; flex-wrap:wrap;
     position: fixed; right:0; background-image: url(../img/1.jpg);}
     nav::before{content: ""; width: 100%; height: 100%; background: rgba(0,0,0,0.3); position: absolute; z-index: -1;}
     #menu{display: flex; flex-direction: row-reverse;}
-    .tap{ position: relative; bottom: 35px; right: 3%; width: 6vw;}
+    .tap{ position: relative;  right: 3%; width: 6vw;}
     .tap:hover{cursor: pointer;}
     
     nav ul li:nth-of-type(1){font-size: 1.3em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 20%;}
@@ -24,7 +24,7 @@
     nav ul{width: 50%; padding-bottom: 10%}
     nav ul li{padding: 5%;}
 
-    #slider{padding-top: 20%; margin: 0 auto; width: 100%;  height: auto; display: flex; justify-content: center;}
+    #slider{padding-top: 20%; margin: 0 auto; width: 100%; display: flex; justify-content: center;}
     #video{width: 95%;}
 
     #ct{width: 100%; height: auto; background: black;} 
@@ -41,18 +41,18 @@
 
     .ab{width: 100%; margin: 0 auto; background-image: url(../img/2.jpg); background-size:cover ; background-position: center;}
     #second{width: 85%; height: auto; margin: 0 auto; padding-top: 20%; }
-    #second h1{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
+    #second h1{font-size: 7.5vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
     #second article{display: flex; flex-wrap: wrap;}
     #second article img{width: 95%; display: block;}
     #second p {display: flex; flex-wrap: wrap; justify-content: center; font-size: 5.5vw;  line-height: 120%; padding: 5% 0%; } 
     
-    #second span{font-size: 8vw; color: #e6c761;}
+    #second span{font-size: 9vw; color: #e6c761;}
     #second article #btn{background: #e9d595; margin-top: 6%; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 4.8vw;}
     #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
 
 
     .rose{width: 100%; height: auto; padding-bottom: 15%; } 
-    .rose h1{font-size: 8vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family: 'Nanum Myeongjo', serif;} 
+    .rose h1{font-size: 8.5vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family: 'Nanum Myeongjo', serif;} 
     .rose p{font-size: 5.5vw; font-family: 'Nanum Myeongjo', serif; text-shadow: 2px 2px 1px black; position: relative; top: 50%; }
     #third{width: 100%; height: 55vw; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
     #third article{width: 60%; height: 100px; margin: 0 auto; }
@@ -63,7 +63,7 @@
 
     .a4{width: 100%; margin: 0 auto; padding-top: 20%; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
     .a4 article{ width: 80%;  }
-    #gift h1{font-size: 7.5vw;  padding: 5% 2% 2% 2%;font-family: 'Nanum Myeongjo', serif; }
+    #gift h1{font-size: 8vw;  padding: 5% 2% 2% 2%;font-family: 'Nanum Myeongjo', serif; }
     #gift:nth-of-type(2) h1{text-align: right;}
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
@@ -73,14 +73,14 @@
     #gift img{width: 100%;}
     #drec{display: none;}
     
-    .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
+    .a5{ width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
     #story{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
     justify-content: space-evenly}
-    #story h1{font-size: 7.5vw; font-family: 'Chakra Petch', sans-serif; text-align:center; padding: 20% 0 4% 0; width: 100%;}
+    #story h1{ font-size: 8vw; font-family: 'Chakra Petch', sans-serif; text-align:center; padding: 20% 0 4% 0; width: 100%;}
     #story span{color:#ffeb7c;}
     #story h2{font-size: 5vw; color: black; padding: 2% 1% 1% 1%;}
     #story p{color: black; padding-bottom: 5%; font-size: 4vw;}
-    #story a{width: 47%;}
+    #story a{width: 47%; }
     #story a:nth-of-type(3){display: none;}
     #story img{width: 100%;}
     #story img:hover{opacity: 0.9;}
@@ -116,13 +116,13 @@
 
     @media (min-width:778px) and (max-width:1999px){
         header{background-image: url(../img/1.jpg); height: auto; width: 100%;}
-        #logo{font-family: "Baskerville Old Face"; font-size: 6vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
+        #logo{font-family: "Baskerville Old Face"; font-size: 7vw; text-align: center;  position: relative; top: 15px;} 
       
         
         nav{display: flex;  justify-content: space-between;  width: 80%; 
         position: absolute;  left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.5)}
         #menu{display: flex; flex-direction: row-reverse;}
-        .tap{ position: relative; bottom: 30px; right: 3%; width: 3.5vw;}
+        .tap{ position: relative; bottom: 40px; right: 3%; width: 4vw;}
         .tap:hover{cursor: pointer;}
         nav ul li:nth-of-type(1){font-size: 1.5em; font-family: 'Nanum Myeongjo', serif; font-weight: bold;}
         nav ul a{color: white; padding: 18px; display: flex; font-size: 1.2em; }
@@ -140,25 +140,25 @@
         .a1 p{font-size: 2.3vw; line-height: 4vw;}
         .a1 img{width: 80%; position: relative; top: -10vh; left: 20%; bottom: 15vh; }
         
-        #box #btn{position: relative; top:2vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.7vw 8vw; font-size: 1.5vw;}
+        #box #btn{position: relative; top:2vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.7vw 8vw; font-size: 2vw;}
         #box #btn:hover{cursor: pointer; background: #e9dba4;}    
     
         .ab{width: 100%; margin: 0 auto; background-image: url(../img/3.jpg); background-size:cover ;}
         .ab:hover{background-image: url(../img/2.jpg);}
         #second{width: 83%; height: auto; margin: 0 auto;  }
-        #second h1{font-size: 5vw; font-family:"바탕"; text-align: center; padding-bottom: 4vw; position: relative; }
+        #second h1{font-size: 6vw; font-family:"바탕"; text-align: center; padding-bottom: 4vw; position: relative; }
         #second article{display: flex;}
         #second article img{width: 55%; display: block;}
         #second p { width: 50%; text-align: right; font-size: 2.3vw; position: relative; top: 70px; line-height: 3vw; font-weight:lighter;} 
-        #second span{font-size: 5.2vw; color: #e6c761;}
-        #second article #btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px;  padding: 0.7vw 8vw; font-size: 1.8vw;
-        position: relative; top: 1.2vw; right: 10%; }
+        #second span{font-size: 6vw; color: #e6c761;}
+        #second article #btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px;  padding: 0.7vw 8vw; font-size: 2vw;
+        position: relative; top: 7vw; right: 10%; }
         #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
     
     
         .rose{width: 100%; } 
-        .rose h1{font-size: 5vw; text-align: center; padding: 70px 0 30px 0; color: #e6c761; font-family:"바탕";} 
-        .rose p{font-size: 3.5vw; font-family:"바탕"; text-shadow: 2px 2px 3px black; position: relative; top: 80%;}
+        .rose h1{font-size: 5.5vw; text-align: center; padding: 70px 0 30px 0; color: #e6c761; font-family:"바탕";} 
+        .rose p{font-size: 4vw; font-family:"바탕"; text-shadow: 2px 2px 3px black; position: relative; top: 80%;}
         #third{width: 100%; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
         #third article{width: 60%; height: 100px; margin: 0 auto; }
         
