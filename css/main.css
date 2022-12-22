@@ -7,7 +7,7 @@
     
    @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; height: auto; width: 100%; position: fixed; top: 0; z-index: 10;}
-    #logo{font-family: "Baskerville Old Face"; font-size: 9vw; text-align: center; font-weight: 500; position: relative; top:5px; padding:2% 0;} 
+    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 9vw; text-align: center; font-weight: 500; position: relative; top:5px; padding:2% 0;} 
   
     
     nav{ height: auto; width: 100%; z-index: 3; display: flex; flex-wrap:wrap;
@@ -31,7 +31,7 @@
 
     .a1{width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content:space-around; align-content: center;}
     .a1 a{display: block; width: 90%; height: auto; margin: 0 auto;}
-    .a1 h2{font-size: 7vw; font-family:"바탕"; color: #e9d595; padding-top: 5%;}
+    .a1 h2{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; color: #e9d595; padding-top: 5%;}
     .a1 h2:hover{color: #e0dccc;}
     .a1 p{font-size: 5vw;  line-height: 130%; padding: 3% 1% 5% 1% ; text-align: justify; }
     .a1 p br{display: none;}
@@ -42,7 +42,7 @@
 
     .ab{width: 100%; margin: 0 auto; background-image: url(../img/2.jpg); background-size:cover ; background-position: center;}
     #second{width: 85%; height: auto; margin: 0 auto;  }
-    #second h1{font-size: 7vw; font-family:"바탕"; text-align: center; padding: 4vw 0 2vw 0;  }
+    #second h1{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
     #second article{display: flex; flex-wrap: wrap;}
     #second article img{width: 95%; display: block;}
     #second p {display: flex; flex-wrap: wrap; justify-content: center; font-size: 5.5vw;  line-height: 120%; padding: 5% 0%; } 
@@ -54,7 +54,7 @@
 
     .rose{width: 100%; height: auto; padding-bottom: 15%; } 
     .rose h1{font-size: 8vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family:"바탕";} 
-    .rose p{font-size: 5.5vw; font-family:"바탕"; text-shadow: 2px 2px 1px black; position: relative; top: 50%; }
+    .rose p{font-size: 5.5vw; font-family: 'Nanum Myeongjo', serif; text-shadow: 2px 2px 1px black; position: relative; top: 50%; }
     #third{width: 100%; height: 55vw; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
     #third article{width: 60%; height: 100px; margin: 0 auto; }
     
@@ -64,10 +64,10 @@
 
     .a4{width: 100%; margin: 0 auto; padding-top: 13%; display: flex; justify-content: space-evenly; }
     .a4 article{ width: 45%; }
-    #gift h1{font-size: 6.5vw;  padding: 10% 0; font-family: "바탕"; }
+    #gift h1{font-size: 6.5vw;  padding: 10% 0;font-family: 'Nanum Myeongjo', serif; }
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
-    #gift p{font-size: 5vw; width: 95%; padding-bottom: 17%;} 
+    #gift p{font-size: 5vw; width: 95%; padding-bottom: 1%;} 
     #gift:nth-of-type(2) p{text-align: right;}
     #gift img:hover{opacity: 0.9;}
     #gift img{width: 100%;}
@@ -87,7 +87,7 @@
    #last{width: 100%;  background: white; padding: 10% 0 5% 0;}
     #part{width: 80%;  margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; padding-top: 5%;}
     #part h2{ width: 100%; text-align: center; color: rgb(77, 75, 75); font-size: 4vw; 
-     font-family: "Baskerville Old Face";}
+        font-family: 'Nanum Myeongjo', serif;}
     #part h2 a{color: rgb(66, 66, 66);} 
     #part h3{width: 100%; font-size: 3vw; color:#e6c761; font-weight: 100; text-align: center;} 
     #part a{width: 10%;}
