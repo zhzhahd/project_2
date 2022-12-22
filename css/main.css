@@ -62,12 +62,13 @@
     #derec{position: relative; top: 7.5vh;  width: 20vw; }   
 
 
-    .a4{width: 100%; margin: 0 auto; padding-top: 13%; display: flex; justify-content: space-evenly; }
-    .a4 article{ width: 45%; }
-    #gift h1{font-size: 6.5vw;  padding: 10% 0;font-family: 'Nanum Myeongjo', serif; }
+    .a4{width: 100%; margin: 0 auto; padding-top: 13%; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+    .a4 article{ width: 80%; }
+    #gift h1{font-size: 7.5vw;  padding: 5% 3%;font-family: 'Nanum Myeongjo', serif; }
+    #gift:nth-of-type(2) h1{text-align: right;}
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
-    #gift p{font-size: 5vw; width: 95%; padding-bottom: 1%;} 
+    #gift p{font-size: 6vw; padding: 0 5% 10% 5%;} 
     #gift:nth-of-type(2) p{text-align: right;}
     #gift img:hover{opacity: 0.9;}
     #gift img{width: 100%;}
@@ -76,11 +77,12 @@
     .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
     #story{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
     justify-content: space-evenly}
-    #story h1{font-size: 7.5vw; text-align:center; padding: 20% 0 4% 0; width: 100%;}
+    #story h1{font-size: 7.5vw; font-family: 'Chakra Petch', sans-serif; text-align:center; padding: 20% 0 4% 0; width: 100%;}
     #story span{color:#ffeb7c;}
     #story h2{font-size: 5vw; color: black; padding: 2% 1% 1% 1%;}
     #story p{color: black; padding-bottom: 5%; font-size: 4vw;}
-    #story a{width: 30%;}
+    #story a{width: 47%;}
+    #story a:nth-of-type(3){display: none;}
     #story img{width: 100%;}
     #story img:hover{opacity: 0.9;}
 
@@ -179,7 +181,7 @@
         .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
         #story{width: 90%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
         justify-content: space-between;}
-        #story h1{font-size: 4.5vw; text-align:center; padding: 8% 0 5% 0; font-family: cursive; width: 100%;}
+        #story h1{font-size: 4.5vw; text-align:center; padding: 8% 0 5% 0; font-family: 'Chakra Petch', sans-serif; width: 100%;}
         #story span{color:#ffeb7c;}
         #story h2, #story p{color: black; padding: 2%;}
         
@@ -284,7 +286,9 @@
         .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
         #story{width: 80%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
         justify-content: space-between;}
-        #story h1{font-size: 3.5vw; text-align:center; padding: 8% 0 5% 0; font-family: cursive; width: 100%;}
+        #story h1{font-size: 3.5vw; text-align:center; padding: 8% 0 5% 0; 
+            font-family: 'Chakra Petch', sans-serif; 
+           width: 100%;}
         #story span{color:#ffeb7c;}
         #story h2{font-size: 1.8vw; color: black; padding: 2% 2% 0 2%;}
         #story p{font-size: 1.4vw; color: black; ;}
