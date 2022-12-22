@@ -62,35 +62,31 @@
     #derec{position: relative; top: 7.5vh;  width: 20vw; }   
 
 
-    .a4{width: 100%; margin: 0 auto; padding-top: 13%;}
-    .a4 article{ width: 95%; margin: 0 auto;}
-    #gift:nth-of-type(1){ display: flex; flex-wrap: wrap;}
-    #gift:nth-of-type(2){justify-content: end;  display: flex; flex-wrap: wrap;}
-
-    #gift h1{font-size: 6.5vw; width: 85%; padding: 10% 0; font-family: "바탕"; }
-    #gift:nth-of-type(2) h1{text-align: right; }
+    .a4{width: 100%; margin: 0 auto; padding-top: 13%; display: flex; justify-content: space-evenly; }
+    .a4 article{ width: 45%; }
+    #gift h1{font-size: 6.5vw;  padding: 10% 0; font-family: "바탕"; }
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
-    #gift p{font-size: 5vw; width: 85%; padding-bottom: 15%;}
+    #gift p{font-size: 5vw; width: 95%; padding-bottom: 17%;} 
     #gift:nth-of-type(2) p{text-align: right;}
     #gift img:hover{opacity: 0.9;}
+    #gift img{width: 100%;}
     #drec{display: none;}
     
     .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
     #story{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
-    justify-content: space-around;}
+    justify-content: space-evenly}
     #story h1{font-size: 7.5vw; text-align:center; padding: 20% 0 4% 0; width: 100%;}
     #story span{color:#ffeb7c;}
-    #story h2{font-size: 6.5vw; color: black; padding: 2% 1% 1% 1%;}
-    #story p{color: black; padding-bottom: 5%; font-size: 5vw;}
-    
-    #story a{width: 80%;}
+    #story h2{font-size: 5vw; color: black; padding: 2% 1% 1% 1%;}
+    #story p{color: black; padding-bottom: 5%; font-size: 4vw;}
+    #story a{width: 30%;}
     #story img{width: 100%;}
     #story img:hover{opacity: 0.9;}
 
    #last{width: 100%;  background: white; padding: 10% 0 5% 0;}
     #part{width: 80%;  margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; padding-top: 5%;}
-    #part h2{ width: 100%; text-align: center;  font-weight: 100; color: rgb(77, 75, 75); font-size: 4vw; 
+    #part h2{ width: 100%; text-align: center; color: rgb(77, 75, 75); font-size: 4vw; 
      font-family: "Baskerville Old Face";}
     #part h2 a{color: rgb(66, 66, 66);} 
     #part h3{width: 100%; font-size: 3vw; color:#e6c761; font-weight: 100; text-align: center;} 
