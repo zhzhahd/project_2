@@ -7,7 +7,7 @@
     
    @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; height: auto; width: 100%; position: fixed; top: 0; z-index: 10;}
-    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 9vw; text-align: center; font-weight: 500; position: relative; top:5px; padding:2% 0;} 
+    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 9vw; text-align: center; font-weight: bolder; position: relative; top:5px; padding:2% 0;} 
   
     
     nav{ height: auto; width: 100%; z-index: 3; display: flex; flex-wrap:wrap;
@@ -53,7 +53,7 @@
 
 
     .rose{width: 100%; height: auto; padding-bottom: 15%; } 
-    .rose h1{font-size: 8vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family:"바탕";} 
+    .rose h1{font-size: 8vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family: 'Nanum Myeongjo', serif;} 
     .rose p{font-size: 5.5vw; font-family: 'Nanum Myeongjo', serif; text-shadow: 2px 2px 1px black; position: relative; top: 50%; }
     #third{width: 100%; height: 55vw; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
     #third article{width: 60%; height: 100px; margin: 0 auto; }
