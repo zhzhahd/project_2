@@ -16,7 +16,7 @@
         $(document).ready(function () {
             $('nav').hide();
 
-            $('.tap').click(function(){
+            $('.tap').click(function () {
                 $('nav').slideToggle();
             });
         });        
@@ -24,89 +24,138 @@
 </head>
 
 <body>
-    
-        <header>
-            <div id="logo"><a href=#>Christian Dior</a></div>
+
+    <header>
+        <div id="logo"><a href=#>Christian Dior</a></div>
+        <ul>
+
+        </ul>
+
+        <div id="menu"><img src="img/Untitled-2.png" class="tap"></div>
+        <nav>
             <ul>
-                
+                <li><a href="#">WOMAN</a></li>
+                <li><a href="#">Miss dior</a></li>
+                <li><a href="#">Dolce vita</a></li>
+                <li><a href="#">J'adore</a></li>
+                <li><a href="#">Holiday</a></li>
             </ul>
 
-            <div id="menu"><img src="img/Untitled-2.png" class="tap"></div>
-            <nav>
-                <ul>
-                    <li><a href="#">WOMAN</a></li>
-                    <li><a href="#">Miss dior</a></li>
-                    <li><a href="#">Dolce vita</a></li>
-                    <li><a href="#">J'adore</a></li>
-                    <li><a href="#">Holiday</a></li>
-                </ul>
 
-
-                <ul>
-                    <li><a href="#">MAN</a></li>
-                    <li><a href="#">Sauvage</a></li>
-                    <li><a href="#">Dior homme</a></li>
-                    <li><a href="#">Higher</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">MAN</a></li>
+                <li><a href="#">Sauvage</a></li>
+                <li><a href="#">Dior homme</a></li>
+                <li><a href="#">Higher</a></li>
+            </ul>
 
 
 
-                <ul>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Notice</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Q&A</a></li>
+            <ul>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Q&A</a></li>
 
-                </ul>
+            </ul>
 
-                <ul>
-                    <li><a href="#">MY</a></li>
-                    <li><a href="">Information</a></li>
-                    <li><a href="">Order list</a></li>
-                    <li><a href="">wish list</a>
-                    <li><a href="">Preferences</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">MY</a></li>
+                <li><a href="">Information</a></li>
+                <li><a href="">Order list</a></li>
+                <li><a href="">wish list</a>
+                <li><a href="">Preferences</a></li>
+            </ul>
 
-                </a>
-            </nav>
+            </a>
+        </nav>
 
-        </header>
-        
-        <body>
-            <section id="buy">
-                <article><img src="img/pur.jpg"></article>
-                <article>
+    </header>
+
+    <body>
+        <section id="top">
+            <div id="buy">
+                <article id="pc"><img src="img/pur-1.jpg" name="pink"></article>
+
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                <script>
+
+                    var image = document.getElementsByName("pink")[0];
+                    var img_array = ["img/pur-1.jpg", "img/pur-2.jpg"];
+                    var index = 0;
+                    function slide() {
+                        document['pink'].src = img_array[index];
+                        index++;
+                        if (index >= img_array.length) {
+                            index = 0;
+                        }
+                    }
+                    setInterval(slide, 2000);
+                </script>
+
+
+                <article id="ml">
                     <h2>Miss Dior</h2>
-                    <h3>EAU DE PARFUM</h3>
-                </article>
+                    <h3>EAU DE PARFUM</h3><br>
+                    <select>
+                        <option><span>30ML</span><span>109,000</span></option>
+                        <option><span>50ML</span><span>172,000</span></option>
+                        <option><span>100ML</span><span>248,000</span></option>
+                        <option><span>150ML</span><span>310,000</span></option>
+                    </select>
+                    <hr>
 
-            </section>
+                    <div class="ck">
+                        <button>GIFT</button><button>CART</button><button>BUY</button>
+                    </div>
 
+                    <div id="online">
+                        <h3>디올 뷰티 온라인 혜택</h3><button id="btn">+</button>
+                        <hr>
+                        <p>
+                            립 제품 포함 10만원 이상 구매 시 크리스마스 럭키 스타 오너먼트 증정
+                            미스 디올 제품 포함 18만원 이상 구매 시 디올 레드 파우치 증정
+                            무료 배송 및 반품 서비스
+                            아이코닉 선물 포장 서비스
 
-
-
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
-
-        </body>
-
-        <footer>
-            <div id="footer">
-                <article class="logo2"><img src="img/dior2.png"></article>
-                <article class="etc"><p>엘브이엠에치코스메틱스(유) | 03155 서울특별시 종로구 종로3길 17, 11층 (청진동, 광화문 D타워) | 사업자등록번호: 214-81-64219
-                    <br>대표자: 아리엔젤인젠츠부르거,BERNARD BOUISSIERES NICOLAS FERNAND JA | 통신판매업 신고번호: 2018-서울종로-1505 | 사업자정보확인
-                    <br>개인정보관리책임자: Lucien FOISY | 고객센터: 080-342-9500 contact@dior.co.kr | 호스팅 서비스: Shopify</p></article>
-                <article id="sns">
-                    <a href="https://www.facebook.com/Dior/"><img src="img/face.png"></a>
-                    <a href="https://www.instagram.com/dior/"><img src="img/insta.png"></a>
-                    <a href="https://www.youtube.com/channel/UC6xD-jKli-_qIYXDTsNv4dw"><img src="img/youtube.png"></a>
+                        </p>
+                        
+                        <h3>주문 배송 안내</h3><button id="btn">+</button>
+                        <p></p>
+                        <hr>
+                    </div>
                 </article>
             </div>
-        </footer>
+        </section>
 
-    
+
+
+
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </body>
+
+    <footer>
+        <div id="footer">
+            <article class="logo2"><img src="img/dior2.png"></article>
+            <article class="etc">
+                <p>엘브이엠에치코스메틱스(유) | 03155 서울특별시 종로구 종로3길 17, 11층 (청진동, 광화문 D타워) | 사업자등록번호: 214-81-64219
+                    <br>대표자: 아리엔젤인젠츠부르거,BERNARD BOUISSIERES NICOLAS FERNAND JA | 통신판매업 신고번호: 2018-서울종로-1505 | 사업자정보확인
+                    <br>개인정보관리책임자: Lucien FOISY | 고객센터: 080-342-9500 contact@dior.co.kr | 호스팅 서비스: Shopify
+                </p>
+            </article>
+            <article id="sns">
+                <a href="https://www.facebook.com/Dior/"><img src="img/face.png"></a>
+                <a href="https://www.instagram.com/dior/"><img src="img/insta.png"></a>
+                <a href="https://www.youtube.com/channel/UC6xD-jKli-_qIYXDTsNv4dw"><img src="img/youtube.png"></a>
+            </article>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>

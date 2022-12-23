@@ -33,7 +33,7 @@
     .a1 a{display: block; width: 90%; height: auto; margin: 0 auto;}
     .a1 h2{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; color: #e9d595; padding-top: 5%;}
     .a1 h2:hover{color: #e0dccc;}
-    .a1 p{font-size: 5vw;  line-height: 130%; padding: 3% 1% 5% 1% ; text-align: justify; }
+    .a1 p{color: white; font-size: 5vw;  line-height: 130%; padding: 3% 1% 5% 1% ; text-align: justify; }
     .a1 p br,.a1 img{display: none;}
         
     #box #btn{position: relative;  left :26%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 4.8vw;}
@@ -80,7 +80,7 @@
     #story span{color:#ffeb7c;}
     #story h2{font-size: 5vw; color: black; padding: 2% 1% 1% 1%;}
     #story p{color: black; padding-bottom: 5%; font-size: 4vw;}
-    #story a{width: 47%; }
+    #story a{width: 47%; color: white;}
     #story a:nth-of-type(3){display: none;}
     #story img{width: 100%;}
     #story img:hover{opacity: 0.9;}
@@ -117,7 +117,7 @@
     @media (min-width:778px) and (max-width:1999px){
         header{background-image: url(../img/1.jpg); height: auto; width: 100%;}
         #logo{font-family: "Baskerville Old Face"; font-size: 7vw; text-align: center;  position: relative; top: 15px;} 
-      
+        #logo a{color: white;}
         
         nav{display: flex;  justify-content: space-between;  width: 80%; 
         position: absolute;  left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.5)}
@@ -137,7 +137,7 @@
         .a1 a{display: block; width: 90%; margin: 0 auto; position: relative; z-index: 3; top: 20vw;}
         .a1 h2{font-size: 5vw; font-family:"바탕"; color: #e9d595;}
         .a1 h2:hover{color: #e0dccc;}
-        .a1 p{font-size: 2.3vw; line-height: 4vw;}
+        .a1 p{font-size: 2.3vw; line-height: 4vw; color: white;}
         .a1 img{width: 80%; position: relative; top: -10vh; left: 20%; bottom: 15vh; }
         
         #box #btn{position: relative; top:2vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.7vw 8vw; font-size: 2vw;}
@@ -179,11 +179,11 @@
         .a5{width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
         #story{width: 90%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
         justify-content: space-between;}
-        #story h1{font-size: 4.5vw; text-align:center; padding: 8% 0 5% 0; font-family: 'Chakra Petch', sans-serif; width: 100%;}
+        #story h1{ font-size: 4.5vw; text-align:center; padding: 8% 0 5% 0; font-family: 'Chakra Petch', sans-serif; width: 100%;}
         #story span{color:#ffeb7c;}
         #story h2, #story p{color: black; padding: 2%;}
         
-        #story a{width: 32%;}
+        #story a{width: 32%; color: white;}
         #story img{width: 100%;}
         #story img:hover{opacity: 0.9;}
     
@@ -221,7 +221,7 @@
 
     @media (min-width:1200px){
         header{background-image: url(../img/2.jpg); background-position: center; height: auto; width: 100%;}
-        #logo{font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
+        #logo{color: white; font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
       
         
         nav{display: flex;  justify-content: space-between;  width: 70%; 
@@ -242,7 +242,7 @@
         .a1 a{display: block; width: 80%; height: auto; margin: 0 auto; position: relative; z-index: 3; top: 35%}
         .a1 h2{font-size: 4vw; font-family:"바탕"; color: #e9d595; }
         .a1 h2:hover{color: #e0dccc;}
-        .a1 p{font-size: 1.7vw;  line-height: 4vw;}
+        .a1 p{font-size: 1.7vw;  line-height: 4vw; color: white;}
         .a1 img{width: 80%; position: absolute; top: 15%; right: 0;}
         
         #box #btn{position: relative; top:3vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.5vw 6vw; font-size: 1.5vw;}
@@ -291,7 +291,7 @@
         #story h2{font-size: 1.8vw; color: black; padding: 2% 2% 0 2%;}
         #story p{font-size: 1.4vw; color: black; ;}
         
-        #story a{width: 30%;}
+        #story a{width: 30%; color: white;}
         #story img{width: 100%;}
         #story img:hover{opacity: 0.9;}
     
