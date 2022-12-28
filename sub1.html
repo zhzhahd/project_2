@@ -95,13 +95,13 @@
 
 
                 <article id="ml">
-                    <h2>Miss Dior</h2>
+                    <h2>J'ADORE</h2>
                     <h3>EAU DE PARFUM</h3><br>
                     <select>
-                        <option><span>30ML</span><span>109,000</span></option>
-                        <option><span>50ML</span><span>172,000</span></option>
-                        <option><span>100ML</span><span>248,000</span></option>
-                        <option><span>150ML</span><span>310,000</span></option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30ML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;109,000 won</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50ML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;172,000 won</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;100ML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;248,000 won</option>
+                        <option>&nbsp;&nbsp;&nbsp;&nbsp;150ML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;310,000 won</option>
                     </select>
                     <hr>
 
@@ -110,20 +110,50 @@
                     </div>
 
                     <div id="online">
-                        <h3>디올 뷰티 온라인 혜택</h3><button id="btn">+</button>
-                        <hr>
-                        <p>
-                            립 제품 포함 10만원 이상 구매 시 크리스마스 럭키 스타 오너먼트 증정
-                            미스 디올 제품 포함 18만원 이상 구매 시 디올 레드 파우치 증정
-                            무료 배송 및 반품 서비스
-                            아이코닉 선물 포장 서비스
+                        <h3>디올 뷰티 온라인 혜택<button class="btn">+</button></h3>
+                        
+                        <p class="gift">
+                            *립 제품 포함 10만원 이상 구매 시 크리스마스 스타 오너먼트 증정<br>
+                            *미스 디올 제품 포함 18만원 이상 구매 시 디올 레드 파우치 증정<br>
+                            *무료 배송 및 반품 서비스<br>
+                            *아이코닉 선물 포장 서비스
 
                         </p>
                         
-                        <h3>주문 배송 안내</h3><button id="btn">+</button>
-                        <p></p>
-                        <hr>
+                        <h3>주문 배송 안내<button class="btn">+</button></h3>
+                        <p class="gift">
+                            <span><b>결제 안내</b><br>
+                            현금 결제 시 기재해주신 입금자명, 결제 필요 금액이 실제 입금자명 및 입금 금액과 다를 경우 결제 처리가 되지 않습니다.<br>
+                           </span><br>
+                            
+                           <span><b>배송 안내</b><br>
+                                평일 14시 이전 결제 완료된 주문 건에 한하여 당일 출고를 원칙으로 하나, 주문량이나 재고량에 따라 변동이 될 수 있습니다.<br>
+                                출고 이후 주문의 수정 및 취소가 불가하며, 반품 비용은 고객님께서 부담하셔야 합니다.<br>
+                                배송방법 : CJ대한통운<br>
+                                배송금액 : 2,500원(50,000원 이상 결제 시 무료)<br>
+                                배송기간 : 평균 5일<br> 
+                            </span><br>
+
+                            <span>
+                            <b>교환 및 반품 안내</b><br>
+                            상품 수령일로부터 7일 이내 교환 및 반품이 가능합니다.<br>
+                            제품 하자를 제외한 반품 건의 경우, 왕복배송비 5,000원 차감 후 환불 진행됩니다.<br>
+                            제품 하자로 인한 교환 및 반품의 경우, 고객센터를 통해 접수 확인 후 불량 판정 시 무상 교환 및 반품됩니다.<br>
+                            제품 개봉 또는 사용 후, 단순 변심으로 인한 교환 및 반품이 불가합니다.<br>
+                            </span>
+                        </p>
+                      
                     </div>
+                    
+                     <script>
+                        $(document).ready(function(){
+                            $('.btn').click(function(){
+                                $(this).parent().next().slideToggle();
+                            });
+                        });
+
+                     </script>
+
                 </article>
             </div>
         </section>
@@ -131,10 +161,40 @@
 
 
 
+        <section id="on">
+            <ul>
+                <li><a href=#>상세정보</a></li>
+                <li><a href=#re>후기</a></li>
+            </ul>
+
+        </section>
+
+
+        <section id=photo>
+            <article>
+                <img src="img/top3.jpg" id="model">
+                <img src="img/top6.jpg" id="model">
+                
+                <video src="img/836d1f67.h264.mp4" autoplay loop id="video"></video>
+                
+                <p>Dior's <b>J'adore Eau de Parfum</b> is a<br>
+                <b>white gold scent</b> from <b>Grasse.</b></p>
+                <br><br>
+                <p>With its original fragrance, this perfume that<br>
+                captivates everyone at once xreates an ideal<br>
+                flower that does not exist in this world.</p>
+                <img src="img/top8.jpg" id="two">
+                <img src="img/top7.jpg">
+              
+            </article>
+        </section>
+
         <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+            <div id="re">
+
+            </div>
+        </section>
 
     </body>
 

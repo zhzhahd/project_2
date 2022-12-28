@@ -221,13 +221,13 @@
 
     @media (min-width:1200px){
         header{background-image: url(../img/2.jpg); background-position: center; height: auto; width: 100%;}
-        #logo{color: white; font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding: 15px; font-weight: 500; position: relative; top: 15px;} 
+        #logo{color: white; font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding-bottom: 1% ; font-weight: 500; position: relative; } 
       
         
         nav{display: flex;  justify-content: space-between;  width: 70%; 
         position: absolute;  left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.5)}
         #menu{display: flex; flex-direction: row-reverse;}
-        .tap{ position: absolute; top: 6%; right: 3%; width: 2.5vw;}
+        .tap{ position: absolute; top: 5%; right: 3%; width: 2.5vw;}
         .tap:hover{cursor: pointer;}
         nav ul li:nth-of-type(1){font-size: 1.7em; font-family: "바탕"; font-weight: bold;}
         nav ul a{color: white; padding: 18px; display: flex; font-size: 1.6em; }
