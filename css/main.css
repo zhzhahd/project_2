@@ -221,8 +221,8 @@
 
     @media (min-width:1200px){
         header{background-image: url(../img/2.jpg); background-position: center; height: auto; width: 100%;}
-        #logo{color: white; font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding-bottom: 1% ; font-weight: 500; position: relative; } 
-      
+        #logo{ font-family: "Baskerville Old Face"; font-size: 3.7vw; text-align: center; padding-bottom: 1% ; font-weight: 500; position: relative; } 
+        #logo a{color: white;}
         
         nav{display: flex;  justify-content: space-between;  width: 70%; 
         position: absolute;  left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.5)}
