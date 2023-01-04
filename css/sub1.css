@@ -26,23 +26,24 @@
     nav ul li{padding: 5%;}
     
     #buy{ margin: 0 auto; width: 97%; padding: 30% 0 7% 0;}
+    #pc{width: 100%; height: 105vw;}
     #pc img{width: 100%;}
 
-    #ml h2{font-size: 6vw; font-weight: 500;}
-    #ml h3{font-size: 3vw;}
-    #ml select{width: 100%; height: 10vw; font-size: 3vw; }
+    #ml h2{font-size: 8vw; font-weight: 500;}
+    #ml h3{font-size: 5vw; font-weight: 500;}
+    #ml select{width: 100%; height: 13vw; font-size: 3vw; }
     #ml select option{font-size: 3vw; display: flex; justify-content: space-between;}
     #ml select option span:nth-last-of-type(2){float: right;}
 
-    #ml .ck button{width: 32.5%; margin-top: 5%; margin-bottom: 7%; border: 0.5px solid; background: white; padding: 4% 0; font-size: 3.5vw; border-radius: 5%;}
+    #ml .ck button{width: 32.5%; margin-top: 5%; margin-bottom: 7%; border: 0.5px solid; background: white; padding: 5% 0; font-size: 5vw; border-radius: 5%;}
     #ml .ck button:nth-last-of-type(2){margin: 0 1%;}
     #ml .ck button:nth-child(3){background: black; color: white;}
 
     #buy article{width: 97%; margin: 0 auto;}
 
-    #online h3{font-size: 3vw; font-weight: 500; display: flex; justify-content: space-between; padding: 2% 0; border-bottom: 0.35px solid;}
+    #online h3{font-size: 5vw; font-weight: 500; display: flex; justify-content: space-between; padding: 2% 0; border-bottom: 0.5px solid;}
 
-    #online p{ font-size: 2.5vw; padding: 2%; background: #eee;}
+    #online p{ font-size: 3.5vw; padding: 2%; background: #eee;}
     #online p{display: none;}
     #online p:nth-of-type(2){overflow: scroll; height: 240px;}
     #online .btn{ display: inline-block; width: 8%; background: none; border: none; font-size: 3vw;}
@@ -50,7 +51,7 @@
 
     #on{width: 97%; margin: 0 auto; padding-top: 10%;}
     #on ul{display: flex; justify-items: center; }
-    #on ul li{width: 50%; text-align: center;  padding: 2.5%; font-size: 5vw;}
+    #on ul li{width: 50%; text-align: center;  padding: 2.5%; font-size: 6vw;}
     #on ul li a{color: black;}
     #on ul li:nth-of-type(1){border-bottom: 3px solid;}
 
@@ -58,7 +59,7 @@
     #photo article #model{width: 100%; padding-bottom: 15%; }
     #photo article #cen{width: 100%; }
     #photo .cotton{width: 50%;}
-    #photo article p{ width: 100%; margin: 0 auto; text-align: center; font-weight: bold; padding: 2% 0; font-size: 3.5vw; font-family: 'Asap', sans-serif; line-height:4.5vw; }
+    #photo article p{ width: 100%; margin: 0 auto; text-align: center; font-weight: bold; padding: 2% 0; font-size: 4.5vw; font-family: 'Asap', sans-serif; line-height:4.5vw; }
     #photo article p #bb{font-size:4.5vw;}
     #photo article #video{width: 100%; padding: 25% 0 7% 0;}
 
@@ -68,13 +69,13 @@
     #photo article h5{ text-align: center; padding-top: 30%; font-size: 6vw; font-family: 'Asap', sans-serif; }
     #photo article #hani{width: 100%; padding: 10% 0 3% 0;}
 
-    #photo article h6{display: flex; justify-content: space-between; text-align: center; font-size: 5vw; padding-top: 30%; border-bottom: solid; font-weight: 500;}
+    #photo article h6{display: flex; justify-content: space-between; text-align: center; font-size: 5vw; padding-top: 30%; border-bottom: 1px solid gray; font-weight: 500;}
     #photo article h6 button{width: 3vw; height: 3vw; background: none; font-size: 5vw; font-weight: 100; border: none;}
     #photo article h6 button:hover{cursor: pointer;}
     #photo article #details{display: none; padding: 4% 3%; background: #eee; font-size: 0.95vw;}
 
-    #re{width: 90%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; border-radius: 1%; background:black; background-size: cover; padding: 0.5%;}
-    #re h2{width: 100%; font-weight: 100; color: white; font-size: 3.5vw; font-family: 'Asap', sans-serif; padding: 0.5% 0;}
+    #re{width: 90%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; border-radius: 1%; background:rgb(59, 59, 53); background-size: cover; padding: 0.5%;}
+    #re h2{width: 100%; text-align: center; font-weight: 100; color: white; font-size: 3.5vw; font-family: 'Asap', sans-serif; padding: 0.5% 0;}
     #re article{width: 16%; height: 12vw;}
     #re article img{width: 100%; height: 100%;}
 
@@ -85,10 +86,10 @@
     .view table tr td:nth-of-type(3){width:12%;}
     .view table tr td:nth-of-type(3) img{width: 100%;}
 
-    .view table tr td{padding: 2.7% 1%; border-bottom: 2.5px solid; width: 100%;}
+    .view table tr td{padding: 2.7% 1%; border-bottom: 2.5px solid darkgray; width: 100%;}
     .view table tr:nth-of-type(1){border-top: 3px solid;}
     .view table tr td a{color: black;}
-    .view table tr td span{color: gray; font-size: 2.8vw;}
+    .view table tr td span{color: rgb(61, 61, 61); font-size: 2.8vw;}
     .view table tr td p{font-size: 2vw; padding:3% 0 0 0;}
     .view article{display: flex; justify-content: space-evenly; margin: 0 auto; width: 20%;}
     .view article p{font-size: 2.5vw; padding: 0 15%;}

@@ -31,39 +31,39 @@
 
     .a1{width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content:space-around; align-content: center;}
     .a1 a{display: block; width: 90%; height: auto; margin: 0 auto;}
-    .a1 h2{font-size: 7vw; font-family: 'Nanum Myeongjo', serif; color: #e9d595; padding-top: 5%;}
+    .a1 h2{font-size: 10vw; font-family: 'Nanum Myeongjo', serif; color: #e9d595; padding-top: 5%;}
     .a1 h2:hover{color: #e0dccc;}
     .a1 p{color: white; font-size: 5vw;  line-height: 130%; padding: 3% 1% 5% 1% ; text-align: justify; }
     .a1 p br,.a1 img{display: none;}
         
-    #box #btn{position: relative;  left :26%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 4.8vw;}
+    #box #btn{position: relative;  left :23%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
     #box #btn:hover{cursor: pointer; background: #e9dba4;}    
 
     .ab{width: 100%; margin: 0 auto; background-image: url(../img/2.jpg); background-size:cover ; background-position: center;}
-    #second{width: 85%; height: auto; margin: 0 auto; padding-top: 20%; }
-    #second h1{font-size: 7.5vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
+    #second{width: 95%; height: auto; margin: 0 auto; padding-top: 20%; }
+    #second h1{font-size: 9vw; font-family: 'Nanum Myeongjo', serif; text-align: center; padding: 4vw 0 2vw 0;  }
     #second article{display: flex; flex-wrap: wrap;}
-    #second article img{width: 95%; display: block;}
-    #second p {display: flex; flex-wrap: wrap; justify-content: center; font-size: 5.5vw;  line-height: 120%; padding: 5% 0%; } 
+    #second article img{width: 95%; margin: 0 auto; display: block;}
+    #second p {display: flex; flex-wrap: wrap; justify-content: center; font-size: 6vw;  line-height: 120%; padding: 5% 0%; } 
     
-    #second span{font-size: 9vw; color: #e6c761;}
-    #second article #btn{background: #e9d595; margin-top: 6%; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 4.8vw;}
+    #second span{font-size: 9.5vw; color: #e6c761;}
+    #second article #btn{background: #e9d595; margin-top: 6%; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
     #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
 
 
     .rose{width: 100%; height: auto; padding-bottom: 15%; } 
-    .rose h1{font-size: 8.5vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family: 'Nanum Myeongjo', serif;} 
+    .rose h1{font-size: 10vw; text-align: center; padding: 70px 0 10px 0; color: #e6c761; font-family: 'Nanum Myeongjo', serif;} 
     .rose p{font-size: 5.5vw; font-family: 'Nanum Myeongjo', serif; text-shadow: 2px 2px 1px black; position: relative; top: 50%; }
     #third{width: 100%; height: 55vw; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
     #third article{width: 60%; height: 100px; margin: 0 auto; }
     
     #men{width: 23vw; position: relative; left: 15%; top: 40px; }
-    #derec{position: relative; top: 10vh;  width: 20vw; }   
+    #derec{position: relative; top: 8vh;  width: 20vw; }   
 
 
     .a4{width: 100%; margin: 0 auto; padding-top: 20%; display: flex; flex-wrap: wrap; justify-content: space-evenly; }
     .a4 article{ width: 80%;  }
-    #gift h1{font-size: 8vw;  padding: 5% 2% 2% 2%;font-family: 'Nanum Myeongjo', serif; }
+    #gift h1{font-size: 10vw;  padding: 5% 2% 2% 2%;font-family: 'Nanum Myeongjo', serif; }
     #gift:nth-of-type(2) h1{text-align: right;}
     #gift h1 a{color: #e6c761;}
     #gift h1 a:hover{color:#e9d595;}
@@ -76,7 +76,7 @@
     .a5{ width: 100%; background-image: url(../img/4.jpg); background-position: center; background-size: cover;}    
     #story{width: 100%; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap;
     justify-content: space-evenly}
-    #story h1{ font-size: 8vw; font-family: 'Chakra Petch', sans-serif; text-align:center; padding: 20% 0 4% 0; width: 100%;}
+    #story h1{ font-size: 10.5vw; font-family: 'Chakra Petch', sans-serif; text-align:center; padding: 20% 0 4% 0; width: 100%;}
     #story span{color:#ffeb7c;}
     #story h2{font-size: 5vw; color: black; padding: 2% 1% 1% 1%;}
     #story p{color: black; padding-bottom: 5%; font-size: 4vw;}
