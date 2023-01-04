@@ -8,7 +8,7 @@
 
 @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; width: 100%; position: fixed; top: 0; z-index: 5;}
-    #logo{font-family: 'Nanum Myeongjo', serif; font-size: 11vw; text-align: center; font-weight:900; position: relative; top:15px; padding:1% 5% 1% 0;} 
+    #logo{font-family: "Baskerville Old Face";font-size: 11vw; text-align: center; font-weight:900; position: relative; top:15px; padding:1% 5% 1% 0;} 
     #logo a{ color: white;}
     
     nav{ height: auto; width: 100%; z-index: 3; display: flex; flex-wrap:wrap;
@@ -18,9 +18,9 @@
     .tap{ position: relative; bottom: 6vw; right: 3%; width: 6vw;}
     .tap:hover{cursor: pointer;}
     
-    nav ul li:nth-of-type(1){font-size: 1.2em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 20%;}
-    nav ul li:nth-of-type(2),nav ul li:nth-of-type(3),nav ul li:nth-of-type(4),nav ul li:nth-of-type(5){padding-left: 20%;}
-    nav ul a{color: white; padding: 3%; display: flex; font-size: 2em; }
+    nav ul li:nth-of-type(1){font-size: 1.2em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 15%;}
+    nav ul li:nth-of-type(2),nav ul li:nth-of-type(3),nav ul li:nth-of-type(4),nav ul li:nth-of-type(5){padding-left: 15%;}
+    nav ul a{color: white; padding: 3%; display: flex; font-size: 1.5em; }
     nav ul a:hover{text-decoration: underline;}
     nav ul{width: 50%; padding-bottom: 10%}
     nav ul li{padding: 5%;}
@@ -29,22 +29,21 @@
     #pc{width: 100%; height: 105vw;}
     #pc img{width: 100%;}
 
-    #ml h2{font-size: 8vw; font-weight: 500;}
-    #ml h3{font-size: 5vw; font-weight: 500;}
+    #ml h2{font-size: 8vw; font-weight: 500; font-family: "Baskerville Old Face";}
+    #ml h3{font-size: 5vw; font-weight: 500; font-family: "Baskerville Old Face";}
     #ml select{width: 100%; height: 13vw; font-size: 3vw; }
     #ml select option{font-size: 3vw; display: flex; justify-content: space-between;}
     #ml select option span:nth-last-of-type(2){float: right;}
 
-    #ml .ck button{width: 32.5%; margin-top: 5%; margin-bottom: 7%; border: 0.5px solid; background: white; padding: 5% 0; font-size: 5vw; border-radius: 5%;}
+    #ml .ck button{width: 32.5%; margin-top: 5%; margin-bottom: 7%; border: 0.5px solid; background: white; padding: 4% 0; font-size: 5vw; border-radius: 5%;}
     #ml .ck button:nth-last-of-type(2){margin: 0 1%;}
     #ml .ck button:nth-child(3){background: black; color: white;}
 
     #buy article{width: 97%; margin: 0 auto;}
 
-    #online h3{font-size: 5vw; font-weight: 500; display: flex; justify-content: space-between; padding: 2% 0; border-bottom: 0.5px solid;}
+    #online h3{font-size: 4vw; font-weight: 500; display: flex; justify-content: space-between; padding: 2% 0; border-bottom: 0.5px solid;}
 
-    #online p{ font-size: 3.5vw; padding: 2%; background: #eee;}
-    #online p{display: none;}
+    #online p{display: none; font-size: 3.5vw; padding: 2%; background: #eee; line-height: 5vw;}
     #online p:nth-of-type(2){overflow: scroll; height: 240px;}
     #online .btn{ display: inline-block; width: 8%; background: none; border: none; font-size: 3vw;}
     #online .btn:hover{cursor: pointer;}
@@ -59,8 +58,8 @@
     #photo article #model{width: 100%; padding-bottom: 15%; }
     #photo article #cen{width: 100%; }
     #photo .cotton{width: 50%;}
-    #photo article p{ width: 100%; margin: 0 auto; text-align: center; font-weight: bold; padding: 2% 0; font-size: 4.5vw; font-family: 'Asap', sans-serif; line-height:4.5vw; }
-    #photo article p #bb{font-size:4.5vw;}
+    #photo article p{ width: 100%; margin: 0 auto; text-align: center; font-weight: bold; padding: 2% 0; font-size: 4.5vw; font-family: 'Asap', sans-serif; line-height:6.5vw; }
+    #photo article p #bb{font-size:6vw; font-family: "Baskerville Old Face";}
     #photo article #video{width: 100%; padding: 25% 0 7% 0;}
 
     
@@ -69,10 +68,10 @@
     #photo article h5{ text-align: center; padding-top: 30%; font-size: 6vw; font-family: 'Asap', sans-serif; }
     #photo article #hani{width: 100%; padding: 10% 0 3% 0;}
 
-    #photo article h6{display: flex; justify-content: space-between; text-align: center; font-size: 5vw; padding-top: 30%; border-bottom: 1px solid gray; font-weight: 500;}
+    #photo article h6{font-family: 'Nanum Myeongjo', serif; display: flex; justify-content: space-between; text-align: center; font-size: 5vw; padding-top: 30%; border-bottom: 1px solid gray; font-weight: 500;}
     #photo article h6 button{width: 3vw; height: 3vw; background: none; font-size: 5vw; font-weight: 100; border: none;}
     #photo article h6 button:hover{cursor: pointer;}
-    #photo article #details{display: none; padding: 4% 3%; background: #eee; font-size: 0.95vw;}
+    #photo article #details{display: none; padding: 4% 3%; background: #eee; font-size: 1.5vw;}
 
     #re{width: 90%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; border-radius: 1%; background:rgb(59, 59, 53); background-size: cover; padding: 0.5%;}
     #re h2{width: 100%; text-align: center; font-weight: 100; color: white; font-size: 3.5vw; font-family: 'Asap', sans-serif; padding: 0.5% 0;}

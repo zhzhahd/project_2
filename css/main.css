@@ -3,7 +3,7 @@
     *{margin: 0; padding: 0; text-decoration: none;  box-sizing: border-box;} 
     ul,ol,li{list-style: none;}  
     #wrap{width: 100%; background: black; color: white;} 
-    
+    body{overflow:scroll;}
     
    @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; width: 100%; position: fixed; top: 0; z-index: 10;}
@@ -17,9 +17,9 @@
     .tap{ position: relative; bottom: 6vw; right: 3%; width: 6vw;}
     .tap:hover{cursor: pointer;}
     
-    nav ul li:nth-of-type(1){font-size: 1.1em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 10%;}
-    nav ul li:nth-of-type(2),nav ul li:nth-of-type(3),nav ul li:nth-of-type(4),nav ul li:nth-of-type(5){padding-left: 10%;}
-    nav ul a{color: white; padding: 2%; display: flex; font-size: 2em; }
+    nav ul li:nth-of-type(1){font-size: 1.1em; text-shadow: 1px 2px 0px gray;font-family: 'Nanum Myeongjo', serif;  padding-left: 15%;}
+    nav ul li:nth-of-type(2),nav ul li:nth-of-type(3),nav ul li:nth-of-type(4),nav ul li:nth-of-type(5){padding-left: 15%;}
+    nav ul a{color: white; padding: 2%; display: flex; font-size: 1.5em; }
     nav ul a:hover{text-decoration: underline;}
     nav ul{width: 50%; padding-bottom: 10%}
     nav ul li{padding: 3%;}
