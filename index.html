@@ -98,7 +98,13 @@
                 <img src="img/JADORE.webp">
                 
             </section>
+            <script>
+                $(function(){
+                    $('#box').css('transform', 'translateX(0px)').css('opacity','1');
 
+                });
+
+            </script>
 
             <section class="ab">
                 <div id="second">
@@ -115,6 +121,12 @@
                     </article>
                 </div>
             </section>
+            <script>
+                $(window).scroll(function(){
+                    if(ws > 1100){
+                         $('#second p').css('transform','translateY(0px)').css('opacity','1');}    
+                });
+            </script>
 
 
             <section class="rose">
@@ -129,7 +141,20 @@
                 </div>
             </section>
    
-            
+            <script>
+                    $(window).scroll(function(){
+                        let ws=$(this).scrollTop();
+                        console.log(ws);
+
+                        if(ws > 2800){
+                            $('#men').css('transform','translateY(0px)').css('opacity','1');
+                        }
+                        if(ws > 2100){
+                            $('.rose h1').css('transform','translateY(0px)').css('opacity','1');
+                        }
+                    });
+
+            </script>
             
             
             </section>
@@ -150,7 +175,12 @@
                     
                 </article>
             </section>
+            <script>
+                $(function(){
+                    $('#gift h1').css('transform','translateX(0px)').css('opacity','1');
 
+                });
+            </script>
             
             <section class="a5">
                 <article id="story">
