@@ -3,7 +3,6 @@
     *{margin: 0; padding: 0; text-decoration: none;  box-sizing: border-box;} 
     ul,ol,li{list-style: none;}  
     #wrap{width: 100%; background: black; color: white;} 
-    body{overflow:scroll;}
     
    @media (max-width:777px){
     header{background-image: url(../img/1.jpg); background-size: cover; width: 100%; position: fixed; top: 0; z-index: 10;}
@@ -37,8 +36,8 @@
     .a1 p br,.a1 img{display: none;}
     
     #box{transform: translateX(-15px); transition: all 2s; opacity: 0;}
-    #box #btn{position: relative;  left :23%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
-    #box #btn:hover{cursor: pointer; background: #e9dba4;}    
+    #box .btn{position: relative;  left :23%; right: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
+    #box .btn:hover{cursor: pointer; background: #e9dba4;}    
 
     .ab{width: 100%; margin: 0 auto; background-image: url(../img/2.jpg); background-size:cover ; background-position: center;}
     #second{width: 95%; height: auto; margin: 0 auto; padding-top: 20%; }
@@ -48,8 +47,8 @@
     #second p {transform: translateX(15px); transition: all 2s; opacity: 0; display: flex; flex-wrap: wrap; justify-content: center; font-size: 6vw;  line-height: 120%; padding: 5% 0%; } 
     
     #second span{font-size: 9.5vw; color: #e6c761;}
-    #second article #btn{background: #e9d595; margin-top: 6%; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
-    #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
+    #second article .btn{background: #e9d595; margin-top: 6%; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 2vw 9vw; font-size: 7vw;}
+    #second article .btn:hover{cursor: pointer; background: #e9dba4;} 
 
 
     .rose{width: 100%; height: auto; padding-bottom: 15%; } 
@@ -141,9 +140,9 @@
         .a1 p{font-size: 2.3vw; line-height: 4vw; color: white;}
         .a1 img{width: 80%; position: relative; top: -10vh; left: 20%; bottom: 15vh; }
         
-        #box{transform: translateX(-200px); transition: all 1s; opacity: 0;}
-        #box #btn{position: relative; top:2vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.7vw 8vw; font-size: 2vw;}
-        #box #btn:hover{cursor: pointer; background: #e9dba4;}    
+        #box{transform: translateX(-100px); transition: all 2s; opacity: 0;}
+        #box .btn{position: relative; top:2vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.7vw 8vw; font-size: 2vw;}
+        #box .btn:hover{cursor: pointer; background: #e9dba4;}    
             
         .ab{width: 100%; margin: 0 auto; background-image: url(../img/3.jpg); background-size:cover ;}
         .ab:hover{background-image: url(../img/2.jpg);}
@@ -151,27 +150,27 @@
         #second h1{font-size: 6vw; font-family:"바탕"; text-align: center; padding-bottom: 4vw; position: relative; }
         #second article{display: flex;}
         #second article img{width: 55%; display: block;}
-        #second p {transform: translateX(100px); transition: all 1s; opacity: 0;  width: 50%; text-align: right; font-size: 2.3vw; position: relative; top: 70px; line-height: 3vw; font-weight:lighter;} 
+        #second p {transform: translateX(60px); transition: all 1s; opacity: 0;  width: 50%; text-align: right; font-size: 2.3vw; position: relative; top: 70px; line-height: 3vw; font-weight:lighter;} 
         #second span{font-size: 6vw; color: #e6c761;}
-        #second article #btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px;  padding: 0.7vw 8vw; font-size: 2vw;
+        #second article .btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px;  padding: 0.7vw 8vw; font-size: 2vw;
         position: relative; top: 7vw; right: 10%; }
-        #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
+        #second article .btn:hover{cursor: pointer; background: #e9dba4;} 
     
     
         .rose{width: 100%; padding: 8% 0; } 
-        .rose h1{transform: translateY(100px); transition: all 2s; opacity: 0; font-size: 5.5vw; text-align: center; padding: 70px 0 30px 0; color: #e6c761; font-family:"바탕";}
+        .rose h1{transform: translateY(20px); transition: all 1s; opacity: 0; font-size: 5.5vw; text-align: center; padding: 70px 0 30px 0; color: #e6c761; font-family:"바탕";}
         .rose p{font-size: 4vw; font-family:"바탕"; text-shadow: 2px 2px 3px black; position: relative; top: 80%;}
         #third{width: 100%; margin: 0 auto; display: flex; align-items: center; background-image: url("../img/flower-2.jpg"); background-position: center; background-size: cover;} 
         #third article{width: 60%; height: 100px; margin: 0 auto; }
         
-        #men{transform: translateY(100px); transition: all 1s; opacity: 0; width: 19vw; position: relative; left: 35%; top: 50px; }
+        #men{transform: translateY(200px); transition: all 1.5s; opacity: 0; width: 19vw; position: relative; left: 35%; top: 50px; }
         #derec{position: relative; top: 12vh;  width: 15vw; }   
     
     
         .a4{width: 100%; margin: 0 auto; display: flex; justify-content: space-evenly; position: relative;}
         .a4 article{ width: 47%; padding: 15vh 0vw 10vh 0vw; }
         #gift #hand1,#gift #hand2{width: 100%;} 
-        #gift h1{transform: translateX(-100px); transition: all 1.5s; opacity: 0; font-size: 4.5vw; padding: 10% 0; font-family: "바탕"; }
+        #gift h1{transform: translateX(-20px); transition: all 1.5s; opacity: 0; font-size: 4.5vw; padding: 10% 0; font-family: "바탕"; }
         #gift h1 a{color: #e6c761;}
         #gift h1 a:hover{color:#e9d595;}
         #gift p{font-size: 2vw; padding-bottom: 5%; font-weight: 300;}
@@ -247,8 +246,8 @@
         .a1 p{font-size: 1.7vw;  line-height: 4vw; color: white;}
         .a1 img{width: 80%; position: absolute; top: 15%; right: 0;}
         
-        #box #btn{position: relative; top:3vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.5vw 6vw; font-size: 1.5vw;}
-        #box #btn:hover{cursor: pointer; background: #e9dba4;}    
+        #box .btn{position: relative; top:3vh; left: 2%; background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.5vw 6vw; font-size: 1.5vw;}
+        #box .btn:hover{cursor: pointer; background: #e9dba4;}    
     
         .ab{width: 100%; margin: 0 auto; background-image: url(../img/3.jpg); background-size:cover ;}
         .ab:hover{background-image: url(../img/2.jpg);}
@@ -258,9 +257,9 @@
         #second article img{width: 55%; display: block;}
         #second p { width: 50%; text-align: right; font-size: 2vw; position: relative; top: 70px; line-height: 3vw; font-weight:lighter;} 
         #second span{font-size: 5vw; color: #e6c761;}
-        #second article #btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.5vw 6vw; font-size: 1.5vw;
+        #second article .btn{background: #e9d595; color: rgb(30, 30, 34); border: none; border-radius: 30px; padding: 0.5vw 6vw; font-size: 1.5vw;
         position: relative; top: 1.2vw; }
-        #second article #btn:hover{cursor: pointer; background: #e9dba4;} 
+        #second article .btn:hover{cursor: pointer; background: #e9dba4;} 
     
     
         .rose{width: 100%;} 
