@@ -57,7 +57,7 @@
     #on ul li:nth-of-type(2) a:hover{color: rgb(87, 85, 85);}
 
     #photo{width: 90%; margin: 0 auto; padding: 10% 0 5% 0; }
-    #photo article #model{width: 100%; padding-bottom: 15%; }
+    #photo article .model{width: 100%; padding-bottom: 15%; }
     #photo article #cen{width: 100%; }
     #photo .cotton{width: 50%;}
     #photo article p{ width: 100%; margin: 0 auto; text-align: center; ; padding: 2% 0; font-size: 4.5vw; font-family: 'Asap', sans-serif; line-height:6.5vw; }
@@ -65,7 +65,7 @@
     #photo article #video{width: 100%; padding: 25% 0 7% 0;}
 
     
-    #photo article #two{padding: 25% 0 0 0 ; width: 100%;}
+    #photo article .two{padding: 25% 0 0 0 ; width: 100%;}
     #photo article #flo{width: 100%; padding: 10% 0 25% 0;}
     #photo article h5{ text-align: center; padding-top: 30%; font-size: 6vw;font-family: 'Nanum Myeongjo', serif;}
     #photo article #hani{width: 100%; padding: 10% 0 3% 0;}
@@ -160,7 +160,7 @@
     #on ul li:nth-of-type(2) a:hover{color: rgb(87, 85, 85);}
 
     #photo{width: 85%; margin: 0 auto; padding: 10% 0 5% 0; }
-    #photo article #model{width: 100%; padding-bottom: 15%; }
+    #photo article .model{width: 100%; padding-bottom: 15%; }
     #photo article #cen{width: 100%; }
     #photo .cotton{width: 50%;}
     #photo article p{ width: 100%; margin: 0 auto; padding: 2% 0; font-size: 2.8vw; font-family: 'Asap', sans-serif; line-height:4.5vw; }
@@ -168,7 +168,7 @@
     #photo article p #bb{font-size: 4vw; font-family: 'Nanum Myeongjo', serif;}
     #photo article #video{width: 100%; padding: 25% 0 7% 0;}
 
-    #photo article #two{padding: 25% 0 0 0 ; width: 100%;}
+    #photo article .two{padding: 25% 0 0 0 ; width: 100%;}
     #photo article #flo{width: 100%; padding: 10% 0 25% 0;}
     #photo article h5{ text-align: center; padding-top: 30%; font-size: 5vw; font-family: 'Nanum Myeongjo', serif; }
     #photo article #hani{width: 100%; padding: 10% 0 3% 0;}
@@ -267,7 +267,7 @@
     #on ul li:nth-of-type(2) a:hover{color: rgb(87, 85, 85);}
 
     #photo{width: 50%; margin: 0 auto; padding: 10% 0 5% 0; }
-    #photo article #model{width: 100%; padding-bottom: 15%; }
+    #photo article .model{width: 100%; padding-bottom: 15%; }
     #photo article #cen{width: 100%; }
     #photo .cotton{width: 50%;}
     #photo article p{ width: 100%; margin: 0 auto; padding: 2% 0; font-size: 1.8vw; font-family: 'Asap', sans-serif; line-height:3vw; }
@@ -275,7 +275,7 @@
     #photo article p #bb{font-size: 3vw; font-family: 'Nanum Myeongjo', serif;}
     #photo article #video{width: 100%; padding: 25% 0 7% 0;}
 
-    #photo article #two{padding: 25% 0 0 0 ; width: 100%;}
+    #photo article .two{padding: 25% 0 0 0 ; width: 100%;}
     #photo article #flo{width: 100%; padding: 10% 0 25% 0;}
     #photo article h5{ text-align: center; padding-top: 30%; font-size: 4vw; font-weight: lighter; font-family: 'Nanum Myeongjo', serif; }
     #photo article #hani{width: 100%; padding: 10% 0 3% 0;}
